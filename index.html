@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Artist Portfolio</title>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Hero Section -->
+  <div class="hero relative h-screen bg-cover bg-center" style="background-image: url('background.jpg');">
+    <div class="overlay absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-gray-800 opacity-75"></div>
+
+    <!-- Navigation -->
+    <nav class="relative z-10 flex justify-between items-center px-16 py-6 bg-black bg-opacity-30 backdrop-blur-md shadow-lg">
+      <div class="n-left">
+        <h1 class="text-4xl font-extrabold tracking-wide text-yellow-400">Artist Logo</h1>
+      </div>
+
+      <div class="links">
+        <ul class="flex space-x-6 text-xl">
+          <li><a href="#about" class="hover:text-yellow-400 transition duration-300 ease-in-out">About</a></li>
+          <li><a href="#gallery" class="hover:text-yellow-400 transition duration-300 ease-in-out">Gallery</a></li>
+          <li><a href="#contact" class="hover:text-yellow-400 transition duration-300 ease-in-out">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="n-right">
+        <button class="px-6 py-3 bg-yellow-400 text-gray-800 text-xl rounded-full shadow-md hover:bg-yellow-500 transition duration-300 ease-in-out">
+          Login
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Text -->
+    <div class="relative z-10 text-center mt-32">
+      <h1 class="text-6xl font-extrabold text-yellow-400 drop-shadow-lg">Welcome to My Art World</h1>
+      <p class="mt-6 text-xl text-gray-300 max-w-3xl mx-auto">
+        Discover the beauty of creativity and explore the journey of emotions through vivid colors and intricate designs.
+      </p>
+      <a href="#about" class="inline-block mt-10 px-8 py-4 bg-yellow-400 text-gray-800 text-lg font-semibold rounded-full hover:bg-yellow-500 shadow-lg transition duration-300 ease-in-out">
+        Learn More
+      </a>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="px-16 py-16 bg-gray-800">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-4xl font-bold mb-6">About Me</h2>
+        <p class="text-lg leading-relaxed text-gray-300">
+          Hi, I’m <span class="text-yellow-400 font-semibold">Harry Thomas</span>, a passionate artist who believes in the power of creativity to inspire and connect people. My journey began with a simple sketchpad, and today, I create abstract paintings and digital illustrations that reflect the beauty, complexity, and emotions of life.
+          <br><br>
+          Over the years, I’ve honed my skills in watercolor and oil painting, and showcased my work in exhibitions around the world. My goal is to create art that resonates, inspires, and sparks conversations.
+        </p>
+      </div>
+
+      <div class="text-center">
+        <h3 class="text-3xl font-bold mb-4 text-yellow-400">Amazing Artwork</h3>
+        <p class="text-gray-300 mb-6">
+          Welcome to my creative universe! Here, art comes alive, emotions take shape, and stories unfold through vivid colors and intricate designs. Let’s embark on a journey of imagination together.
+        </p>
+        <img src="girl.jpg" alt="Artwork" class="rounded-xl shadow-lg transform hover:scale-105 transition duration-300 ease-in-out max-w-full">
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
