@@ -10,12 +10,10 @@
 
 <body class="bg-gray-900 text-white font-sans">
 
-  <!-- Hero Section -->
-  <div class="hero relative h-screen bg-cover bg-center" style="background-image: url('background.jpg');">
-    <div class="overlay absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-gray-800 opacity-75"></div>
+  <div class="hero relative h-screen bg-cover bg-center" style="background-image: url('color-4158152_1920.jpg');">
+    <div class="overlay absolute inset-0 bg-gradient-to-b from-black via-gray-600 to-gray-600 opacity-75"></div>
 
-    <!-- Navigation -->
-    <nav class="relative z-10 flex justify-between items-center px-16 py-6 bg-black bg-opacity-30 backdrop-blur-md shadow-lg">
+    <nav class="relative z-10 flex justify-between items-center px-16 py-6 bg-black bg-opacity-10 backdrop-blur-md shadow-lg">
       <div class="n-left">
         <h1 class="text-4xl font-extrabold tracking-wide text-yellow-400">Artist Logo</h1>
       </div>
@@ -24,6 +22,8 @@
         <ul class="flex space-x-6 text-xl">
           <li><a href="#about" class="hover:text-yellow-400 transition duration-300 ease-in-out">About</a></li>
           <li><a href="#gallery" class="hover:text-yellow-400 transition duration-300 ease-in-out">Gallery</a></li>
+          <li><a href="#services" class="hover:text-yellow-400 transition duration-300 ease-in-out">Services</a></li>
+          <li><a href="#testimonials" class="hover:text-yellow-400 transition duration-300 ease-in-out">Testimonials</a></li>
           <li><a href="#contact" class="hover:text-yellow-400 transition duration-300 ease-in-out">Contact</a></li>
         </ul>
       </div>
@@ -35,7 +35,6 @@
       </div>
     </nav>
 
-    <!-- Hero Text -->
     <div class="relative z-10 text-center mt-32">
       <h1 class="text-6xl font-extrabold text-yellow-400 drop-shadow-lg">Welcome to My Art World</h1>
       <p class="mt-6 text-xl text-gray-300 max-w-3xl mx-auto">
@@ -47,25 +46,101 @@
     </div>
   </div>
 
-  <!-- About Section -->
-  <section id="about" class="px-16 py-16 bg-gray-800">
-    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+  <section id="about" class="px-16 py-16 bg-gray-900">
+    <div class="container mx-auto flex gap-10">
       <div>
         <h2 class="text-4xl font-bold mb-6">About Me</h2>
-        <p class="text-lg leading-relaxed text-gray-300">
-          Hi, I’m <span class="text-yellow-400 font-semibold">Harry Thomas</span>, a passionate artist who believes in the power of creativity to inspire and connect people. My journey began with a simple sketchpad, and today, I create abstract paintings and digital illustrations that reflect the beauty, complexity, and emotions of life.
+        <p class="text-lg leading-relaxed mb-6 text-gray-300">
+          Hi, I’m <span class="text-yellow-400 text-2xl font-semibold">Harry Thomas</span>, a passionate artist who believes in the power of creativity to inspire and connect people. My journey began with a simple sketchpad, and today, I create abstract paintings and digital illustrations that reflect the beauty, complexity, and emotions of life.
           <br><br>
           Over the years, I’ve honed my skills in watercolor and oil painting, and showcased my work in exhibitions around the world. My goal is to create art that resonates, inspires, and sparks conversations.
         </p>
       </div>
+      <img src="artist2.jpg" alt="Artwork" class="h-96 max-w-full rounded-xl shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+    </div>
+  </section>
 
-      <div class="text-center">
-        <h3 class="text-3xl font-bold mb-4 text-yellow-400">Amazing Artwork</h3>
-        <p class="text-gray-300 mb-6">
-          Welcome to my creative universe! Here, art comes alive, emotions take shape, and stories unfold through vivid colors and intricate designs. Let’s embark on a journey of imagination together.
-        </p>
-        <img src="girl.jpg" alt="Artwork" class="rounded-xl shadow-lg transform hover:scale-105 transition duration-300 ease-in-out max-w-full">
+  <section class="bg-gray-800 px-6 py-6" >
+
+    <h2 class="text-4xl font-bold mb-6 text-center text-yellow-400">View  Gallery</h2>
+    <div id="#gallery" class="imges bg-gray-900 px-16 py-6 flex flex-wrap gap-10 ">
+
+      <img class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="img2.jpg" alt="">
+    
+      <img class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="woman.webp" alt="">
+      <img class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="1.avif" alt="">
+   
+      <img class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="img.jpg" alt="">
+      <img  class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="tiger.webp " alt="">
+      <img class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="2.avif" alt="">
+   
+      <img class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="art1.jpg" alt="">
+      <img  class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="img4.jpg" alt="">
+  
+      <img class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="img5.jpg" alt="">
+      <img class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="art-1905711_1280.jpg" alt="">
+      <img  class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="3.avif" alt="">
+      <img class="h-64 transform hover:scale-105 transition duration-300 ease-in-out" src="k.jpg" alt="">
+  
+    </div>
+  </section>
+  
+  <section id="services" class="px-16 py-16 bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6 text-yellow-400">My Services</h2>
+      <div class="flex justify-center gap-10">
+        <div class="service-card bg-gray-700 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Custom Paintings</h3>
+          <p class="text-gray-300">Get personalized artwork tailored to your taste and style for your home or office.</p>
+        </div>
+        <div class="service-card bg-gray-700 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Art Workshops</h3>
+          <p class="text-gray-300">Learn painting techniques through interactive workshops and classes.</p>
+        </div>
+        <div class="service-card bg-gray-700 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Digital Illustrations</h3>
+          <p class="text-gray-300">High-quality digital art for branding, posters, and other creative needs.</p>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="px-16 py-16 bg-gray-900">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Testimonials</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="testimonial bg-gray-800 p-6 rounded-lg shadow-lg">
+          <p class="text-gray-300 italic">“Harry’s artwork is nothing short of magical. Every piece tells a story and evokes deep emotions.”</p>
+          <p class="mt-4 text-yellow-400 font-semibold">- Emily Davis</p>
+        </div>
+        <div class="testimonial bg-gray-800 p-6 rounded-lg shadow-lg">
+          <p class="text-gray-300 italic">“The custom painting I ordered exceeded my expectations. Highly recommended!”</p>
+          <p class="mt-4 text-yellow-400 font-semibold">- Mark Johnson</p>
+        </div>
+        <div class="testimonial bg-gray-800 p-6 rounded-lg shadow-lg">
+          <p class="text-gray-300 italic">“Attending Harry’s workshop was a life-changing experience. I’ve learned so much!”</p>
+          <p class="mt-4 text-yellow-400 font-semibold">- Sarah Lee</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="px-16 py-16 bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6 text-yellow-400">Contact Me</h2>
+      <p class="text-gray-300 mb-6">Feel free to reach out for inquiries, collaborations, or just to say hello!</p>
+      <form class="max-w-lg mx-auto">
+        <div class="mb-4">
+          <input type="text" placeholder="Your Name" class="w-full p-4 rounded-lg bg-gray-700 text-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+        </div>
+        <div class="mb-4">
+          <input type="email" placeholder="Your Email" class="w-full p-4 rounded-lg bg-gray-700 text-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+        </div>
+        <div class="mb-4">
+          <textarea placeholder="Your Message" class="w-full p-4 rounded-lg bg-gray-700 text-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400"></textarea>
+        </div>
+        <button type="submit" class="px-6 py-3 bg-yellow-400 text-gray-800 font-semibold rounded-full shadow-md hover:bg-yellow-500 transition duration-300 ease-in-out">Send Message</button>
+      </form>
     </div>
   </section>
 
